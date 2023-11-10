@@ -1,49 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         Stats preview card component.
     </title>
     <link href="styles.css" rel="stylesheet"/>
-    <meta charset="UTF-8" />
+    
 </head>
 <body> 
     <main >
-        <h1 class="text">Get insights that help your business grow.</h1>
-        <p class="subtext">
-            Discover the benifits of data analytics and make better decisions regarding 
-            revenue,customer,experience, and overall efficiency.
-        </p>
+        <div class="content">
+            <h1 class="text">Get <span class="highlight">insights</span> that help your business grow.</h1>
+            <p class="subtext">
+                Discover the benifits of data analytics and make better decisions regarding 
+                revenue,customer,experience, and overall efficiency.
+            </p>
 
-        <section>
+            <div style="display:flex" >
+
+                <div class="col" id="part1">
+                    <h2 class="text">
+                        10k+
+                    </h2>
+                    <p class="subtext">
+                        COMPANIES
+                    </p>
+                </div>
             
-            <div class="part1">
-                <h2 class="text">
-                    10k+
-                </h2>
-                <p class="subtext">
-                    COMPANIES
-                </p>
+                <div class="col-6" id="part2">
+                    <h2 class="text">
+                        314
+                    </h2 >
+                    <p class="subtext">
+                        TEMPLATES
+                    </p>
+                </div>
+
+                <div class="col" id="bacon_area">
+                    <h2 class="text">
+                        12M+
+                    </h2>
+                    <P class="subtext">
+                        QUERIES
+                    </P>
+                </div>
+
             </div>
-            <div class="part2">
-                <h2 class="text">
-                    314
-                </h2 >
-                <p class="subtext">
-                    TEMPLATES
-                </p>
-            </div>
-            <div class="part3">
-                <h2 class="text">
-                    12M+
-                </h2>
-                <P class="subtext">
-                    QUERIES
-                </P>
-            </div>
-        </section>
+
+        </div>
+
     </main>
-    <figure class="pic">
-        <img src="C:\Users\hp\Desktop\image-header-desktop.jpg" alt="image">
+    <figure class="image">
+        <img alt="image" src="C:\Users\hp\Desktop\image-header-desktop.jpg" />
     </figure>
 </body>
